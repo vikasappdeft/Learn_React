@@ -10,6 +10,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Jsx from './C2-DescribingUI/Jsx.jsx';
 import States from './C2-DescribingUI/States.jsx';
 import Props from './C2-DescribingUI/Props.jsx';
+import Forms from './C2-DescribingUI/Forms.jsx';
+import Loops from './C2-DescribingUI/Loops.jsx';
 const router = createBrowserRouter([
   {
     path:'/',
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
   {
     path:'/props',
     element:<><Sidebar /><Props data="Love the way you learn" /></>
+  },
+  {
+    path:'/forms',
+    element:<><Sidebar /><Forms /></>
+  },
+  {
+    path:'/loops',
+    element:<><Sidebar /><Loops /></>
   },
 ]);
 createRoot(document.getElementById('root')).render(

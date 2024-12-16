@@ -48,6 +48,8 @@ const Sidebar = () => {
             <li><Link to="/jsx" className="dropdown-item">JSX</Link></li>
             <li><Link to="/states" className="dropdown-item">States</Link></li>
             <li><Link to="/props" className="dropdown-item">Props</Link></li>
+            <li><Link to="/forms" className="dropdown-item">Forms</Link></li>
+            <li><Link to="/loops" className="dropdown-item">Loops</Link></li>
           </ul>
         </li>
         <li className={`dropdown ${activeDropdown === 2 ? 'active' : ''}`}>
